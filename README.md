@@ -8,7 +8,7 @@ A personal theater logs.
 
 ## 資料結構 (Data Schema)
 
-本專案的主要紀錄存放於 `[theater_logs.csv](https://github.com/repeat/theater-logs/blob/main/theater-logs.csv)`。
+本專案的主要紀錄存放於 [theater_logs.csv](https://github.com/repeat/theater-logs/blob/main/theater-logs.csv)。
 為方便自動化分析與機器讀取，各欄位定義如下：
 
 | 欄位名稱 (Column) | 資料型態 (Type) | 說明 (Description) |
