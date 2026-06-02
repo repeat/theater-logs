@@ -17,6 +17,8 @@ A personal theater logs.
 | `show_date` | Date | 開演日期，格式為 `YYYY-MM-DD` |
 | `show_time` | Time | 開演時間，格式為 `HH:MM:SS`。 ⚠️ **注意：所有時間均為 `Asia/Taipei (UTC+8)`。** |
 | `show_weekday` | String | 星期縮寫（如 Sun, Mon） |
+| `troupe` | String | 演出劇團或製作單位名稱 |
+| `project_tag` | String | 系列企劃或活動標籤（如人間條件、臺北藝穗節），無則留空 |
 | `show_title` | String | 節目名稱 |
 | `venue` | String | 演出場地 |
 | `entries` | Integer | 觀賞同劇目的次數（例如 `1` 為首刷，`2` 為二刷） |
@@ -26,7 +28,7 @@ A personal theater logs.
 ## 免責聲明 (Disclaimer)
 
 1. 由於記憶的不可靠性，如果我有記錯而修正記錄時，以最新修正內容為主。
-2. 這個表理論上會不定時更新。
+2. 觀劇動機或備註緩慢補齊中。
 
 ## 授權條款 (License)
 
