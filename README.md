@@ -24,6 +24,7 @@ A personal theater logs.
 | `entries` | Integer | 觀賞同劇目的次數（例如 `1` 為首刷，`2` 為二刷） |
 | `ticket_price` | Integer | 票價（新台幣），純數字格式 |
 | `reasons_of_entry` | String | 觀劇動機或備註 |
+| `new_followed_actors` | String | 觀劇後新關注的演員 |
 
 ## 免責聲明 (Disclaimer)
 
