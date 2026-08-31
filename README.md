@@ -21,7 +21,7 @@ A personal theater logs.
 | `project_tag` | String | 系列企劃或活動標籤（如人間條件、臺北藝穗節），無則留空 |
 | `show_title` | String | 節目名稱 |
 | `venue` | String | 演出場地 |
-| `entries` | Integer | 觀賞同劇目的次數（例如 `1` 為首刷，`2` 為二刷） |
+| `entries` | Integer | 同一劇目的第幾次入場（例如 `1` 為首刷，`2` 為二刷）。純粹計算入場次數，不代表演出內容或卡司相同，詳見免責聲明第 3 點 |
 | `ticket_price` | Integer | 票價（新台幣），純數字格式 |
 | `reasons_of_entry` | String | 觀劇動機或備註 |
 | `new_followed_actors` | String | 觀劇後新關注的演員 |
@@ -30,6 +30,7 @@ A personal theater logs.
 
 1. 由於記憶的不可靠性，如果我有記錯而修正記錄時，以最新修正內容為主。
 2. 觀劇動機或備註緩慢補齊中。
+3. `entries` 只代表「第 N 次為同一劇目購票入場」，不代表每次演出內容完全相同。同一劇目可能因劇團採 A/B 卡或 ABCD 多組卡司排列組合而每場卡司不同，或本身即為即興演出而每場互動內容都不可複製，這類差異目前不會反映在 `entries` 上，僅記錄在 `reasons_of_entry`（如提及特定卡別、來賓）中，且不保證完整。
 
 ## 授權條款 (License)
 
